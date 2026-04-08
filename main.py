@@ -1,4 +1,4 @@
-print("task 1")
+print("Task 1")
 
 numbers = []
 for i in range(5):
@@ -17,7 +17,7 @@ for n in numbers:
 
 print("Greater than average:", count)
 
-print("\ntask 2")
+print("\nTask 2")
 
 users = set()
 
@@ -35,7 +35,7 @@ if check in users:
 else:
     print("User not found")
 
-print("\ntask 3")
+print("\nTask 3")
 
 products = {
     "apple": 100,
@@ -68,7 +68,7 @@ while True:
     elif choice == "5":
         break
 
-print("\ntask 4")
+print("\nTask 4")
 
 point1 = (2, 3)
 point2 = (5, 7)
@@ -76,7 +76,7 @@ point2 = (5, 7)
 print(point1)
 print(point2)
 
-print("\ntask 5")
+print("\nTask 5")
 
 note = input("Enter note: ")
 
@@ -87,7 +87,7 @@ print("All notes:")
 with open("notes.txt", "r") as f:
     print(f.read())
 
-print("\ntask 6")
+print("\nTask 6")
 
 import os
 
@@ -103,7 +103,7 @@ print("Files:", os.listdir("data"))
 os.rename("data/file0.txt", "data/newfile.txt")
 os.remove("data/file1.txt")
 
-print("\ntask 7")
+print("\nTask 7")
 
 import csv
 
@@ -131,7 +131,7 @@ with open("students.csv", "r") as f:
 print("Max:", max(grades))
 print("Average:", sum(grades)/len(grades))
 
-print("\ntask 8")
+print("\nTask 8")
 
 import json
 
@@ -152,7 +152,7 @@ data["skills"].append("C++")
 with open("user.json", "w") as f:
     json.dump(data, f)
 
-print("\ntask 9")
+print("\nTask 9")
 
 expenses = []
 
